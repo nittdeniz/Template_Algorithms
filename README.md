@@ -50,7 +50,7 @@ del<Pos<3> Base<1,2,3,4,5,6>> V; // V is of type Base<1,2,3,5,6>
 
 ```C++
 using namespace Template_Algorithms;
-islice<Pos<2>, Pos<4>, Base<1,2,3,4,5,6>> T; // T is of type Base<3,4,5>
+islice<Pos<1>, Pos<4>, Base<1,2,3,4,5,6>> T; // T is of type Base<2,3,4,5>
 ```
 
 ### Slicing (excluding)
